@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import Carousel from "./components/Carousel/Carousel";
 
 // function Index() {
 //   return <h2>Home</h2>;
@@ -30,10 +31,10 @@ function AppRouter() {
             </li>
           </ul>
         </nav>
-
-        <Route path="/" exact component={Index} />
+        <Carousel></Carousel>
+        {/* <Route path="/" exact component={Index} />
         <Route path="/about/" component={About} />
-        <Route path="/users/" component={Users} />
+        <Route path="/users/" component={Users} /> */}
       </div>
     </Router>
   );
