@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import Carousel from "./components/Carousel/Carousel";
+import Carousel from "./components/Carousel";
+import Navbar from "./components/Navbar"
 
 // function Index() {
 //   return <h2>Home</h2>;
@@ -19,8 +20,8 @@ function AppRouter() {
     <Router>
       <div>
         
-        <Carousel></Carousel>
-
+        <Carousel/>
+        <Navbar/>
         
         {/* <Route path="/" exact component={Index} />
         <Route path="/about/" component={About} />

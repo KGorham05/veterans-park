@@ -2,7 +2,7 @@ import React from "react";
 import "./Carousel.css";
 
 const Carousel = props => (
-  <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
+  <div id="carouselControls" className="carousel slide" data-ride="carousel">
     <div className="carousel-inner">
       <div className="carousel-item active">
         <div class="carousel-img-style">
@@ -20,11 +20,11 @@ const Carousel = props => (
         </div>
       </div>
     </div>
-    <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <a className="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
       <span className="carousel-control-prev-icon" aria-hidden="true"></span>
       <span className="sr-only">Previous</span>
     </a>
-    <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <a className="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
       <span className="carousel-control-next-icon" aria-hidden="true"></span>
       <span className="sr-only">Next</span>
     </a>
