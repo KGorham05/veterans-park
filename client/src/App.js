@@ -1,7 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Carousel from "./components/Carousel";
-import Navbar from "./components/Navbar"
+import Navbar from "./components/Navbar";
+import "./App.css";
 
 // function Index() {
 //   return <h2>Home</h2>;
@@ -19,13 +20,12 @@ function AppRouter() {
   return (
     <Router>
       <div>
-        
-        <Carousel/>
         <Navbar/>
+      <div className="bod">
+        <Carousel/>
+      </div>
         
-        {/* <Route path="/" exact component={Index} />
-        <Route path="/about/" component={About} />
-        <Route path="/users/" component={Users} /> */}
+        
       </div>
     </Router>
   );

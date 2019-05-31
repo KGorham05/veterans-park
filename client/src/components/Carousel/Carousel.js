@@ -3,7 +3,7 @@ import "./Carousel.css";
 
 const Carousel = props => (
 
-  <div className="text-center">
+  <div className="row">
     <div id="carouselControls" className="carousel slide carousel-img-style" data-ride="carousel">
       <div className="carousel-inner">
         <div className="carousel-item active">
