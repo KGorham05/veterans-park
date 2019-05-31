@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Carousel from "./components/Carousel";
 import Navbar from "./components/Navbar";
+import Plaque from "./components/Plaque"
 import "./App.css";
 
 // function Index() {
@@ -23,6 +24,7 @@ function AppRouter() {
         <Navbar/>
       <div className="bod">
         <Carousel/>
+        <Plaque/>
       </div>
         
         
