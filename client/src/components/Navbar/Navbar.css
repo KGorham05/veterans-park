@@ -1,18 +1,9 @@
-#navbar {
-    height: 60px;
-    width: 100%;
-    background-color: rgb(36, 36, 36);
-    position: fixed;
-    z-index: 1;
+#navb {
+    height: 100%;
+    background-color: rgb( 0, 43, 92);
     -webkit-box-shadow: 0px 3px 8px -1px rgba(0,0,0,0.59);
     -moz-box-shadow: 0px 3px 8px -1px rgba(0,0,0,0.59);
     box-shadow: 0px 3px 8px -1px rgba(0,0,0,0.59);
+    color: white;
 }
 
-#navbar p {
-    color:black;
-    padding-top: 12px;
-    font-family: Montserrat;
-    font-size: 1.5em;
-    text-transform: uppercase
-}

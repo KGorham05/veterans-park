@@ -21,13 +21,34 @@ function AppRouter() {
   return (
     <Router>
       <div>
-        <Navbar/>
-      <div className="bod">
-        <Carousel/>
-        <Plaque/>
-      </div>
-        
-        
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-md-1">
+              <Navbar />
+            </div>
+            <div className="col-md-11">
+              <div className="row">
+                <h1>VETERANS MEMORIAL PARK</h1>
+              </div>
+              <div className="row">
+                <div className="col-md-7">
+                  <Carousel />
+                </div>
+                <div className="col-md-5">
+                  <Plaque />
+                </div>
+              </div>
+
+            </div>
+
+
+
+
+          </div>
+        </div>
+
+
+
       </div>
     </Router>
   );

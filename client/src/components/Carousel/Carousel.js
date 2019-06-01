@@ -3,7 +3,7 @@ import "./Carousel.css";
 
 const Carousel = props => (
 
-  <div className="row">
+  
     <div id="carouselControls" className="carousel slide carousel-style" data-ride="carousel">
       <div className="carousel-inner">
         <div className="carousel-item active">
@@ -31,7 +31,7 @@ const Carousel = props => (
         <span className="sr-only">Next</span>
       </a>
     </div>
-  </div>
+  
 
 );
 
