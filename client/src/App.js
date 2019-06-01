@@ -23,12 +23,15 @@ function AppRouter() {
       <div>
         <div className="container-fluid">
           <div className="row">
-            <div className="col-md-1">
+            <div className="col-md-1 px-0">
               <Navbar />
             </div>
             <div className="col-md-11">
               <div className="row">
-                <h1>VETERANS MEMORIAL PARK</h1>
+                <div className="col-md-12">
+                  <h1>VETERANS MEMORIAL PARK</h1>
+                </div>
+                
               </div>
               <div className="row">
                 <div className="col-md-7">
