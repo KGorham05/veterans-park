@@ -3,4 +3,8 @@
     height: 1000px;
 }
 
+#title-text {
+    font-family: 'Arbutus Slab', serif;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');

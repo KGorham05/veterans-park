@@ -1,4 +1,13 @@
 
 .p-text {
     color: black;
+    padding: 0px 25px 0px 25px;
+}
+
+#plaque {
+    border: solid black 2px;
+}
+
+.pad-top {
+    padding-top: 15px
 }

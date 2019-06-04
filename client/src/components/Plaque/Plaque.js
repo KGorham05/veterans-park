@@ -2,9 +2,9 @@ import React from "react";
 import "./Plaque.css";
 
 const Plaque = props => (
-    <div>
-        <p className="p-text">
-            Between the years 1965 and 1975 more than 2.5 Million U.S. military personnel served within the borders of South Vietnam. Over 58,000 American soldiers lost their lives, 2,000 soldiers were recorded as missing in action, and more than 300,000 soldiers were injured. Many returned home and never fully recovered from the trauma of war.
+    <div id="plaque">
+        <p className="p-text pad-top">
+            Between the years 1965 and 1975 more than 2.5 million U.S. military personnel served within the borders of South Vietnam. Over 58,000 American soldiers lost their lives, 2,000 soldiers were recorded as missing in action, and more than 300,000 soldiers were injured. Many returned home and never fully recovered from the trauma of war.
         </p>
         <p className="p-text">
             We give our thanks and dedicate this park to all who served and to their families who checked their mailbox daily, hoping for reassurance that their loved ones were alive and well.

@@ -29,7 +29,7 @@ function AppRouter() {
             <div className="col-md-11">
               <div className="row">
                 <div className="col-md-12">
-                  <h1>VETERANS MEMORIAL PARK</h1>
+                  <h1  id="title-text">VETERANS MEMORIAL PARK</h1>
                 </div>
                 
               </div>
@@ -37,7 +37,7 @@ function AppRouter() {
                 <div className="col-md-7">
                   <Carousel />
                 </div>
-                <div className="col-md-5">
+                <div className="col-md-4">
                   <Plaque />
                 </div>
               </div>
