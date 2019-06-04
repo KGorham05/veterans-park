@@ -7,3 +7,11 @@
     color: white;
 }
 
+.justify-vertical-center {
+
+        padding-top: 30px; 
+        padding-bottom: 30px;
+        padding-left: 10px;
+        padding-right:   30px;
+        display: inline-block;
+}

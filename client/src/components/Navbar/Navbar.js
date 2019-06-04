@@ -1,16 +1,17 @@
-import React from "react";
+import React, { Component } from "react";
+import { Link } from 'react-router-dom';
 import "./Navbar.css";
 
 const Navbar = props => (
     <div id="navb">
-        <p>VMP</p>
-        <p>Visit</p>
-        <p>Story</p>
-        <p>Letters</p>
-        <p>Gallery</p> 
-        <p>Press</p>
-        <p>Support</p>
-        <p>Vista, CA</p>
+        <Link className="justify-vertical-center" to="/">VMP</Link>
+        <Link className="justify-vertical-center">Story</Link>
+        <Link className="justify-vertical-center">Letters</Link>
+        <Link className="justify-vertical-center">Gallery</Link> 
+        <Link className="justify-vertical-center">Press</Link>
+        <Link className="justify-vertical-center">Support</Link>
+        <Link className="justify-vertical-center">Visit</Link>        
+        <Link className="justify-vertical-center">Vista, CA</Link>
     </div>
 
 );
